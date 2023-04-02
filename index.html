@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaflix</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Leaflix-Enquire Now</h1>
+      <hr>
+      <p>
+        Thank you for your interest in Leaflix Ebusiness private Limited. Please provide us with the following information and we'll be sure to get back to you.
+      </p>
+    </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Your Name</label>
+          <input type="text" id="username">
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label>What are you intrested in?</label>
+          <select name="select-intrest" id="intrest">
+          <option disabled selected value></option>
+          <option value="host">Host An Auction</option>
+          <option value="bid">I want to bid</option>
+          <i class="fs fa-exclamation-circle"></i>
+          <small>Error message</small>
+          </select>
+        </div>
+        <div class="form-control">
+          <label>Business Name&#160<span><h5>(optional)</h5></span></label>
+          <input type="text" >
+          <i class="fa fa-exclamation-circle"></i>
+        </div>
+        <div class="form-control">
+          <label>Email</label>
+          <input type="text" id="Email">
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label>Contact Number</label>
+          <input type="tel" id="number">
+          <i class="fa fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    <div class="end">
+      <div>
+        <img class="logo-end"src="Leaflix Logo New.png" alt="logo">
+      </div>
+      <div class="home-end">
+        <a class="home" href="http://127.0.0.1:5500/xavi/index.html">HOME</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
